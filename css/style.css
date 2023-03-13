@@ -1,6 +1,6 @@
 body{
     background-color: bisque;
-    padding: 15px;
+    padding-left: 20px;
     margin: 0;
 }
 
@@ -30,14 +30,42 @@ header{
     flex-direction: row;
     justify-content: space-between;
 
+    padding: 15px;
     background-color: rgb(146, 230, 73);
 }
 
 aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background-color: cadetblue;
     width: 100px;
     height: 80%;
     float: right;
+    text-align: center;
+}
+
+aside div img{
+    width: 50px;
+    height: 50px;
+}
+
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    height: 50%;
+}
+
+.mainSection div{
+    background-color: rgb(24, 189, 109);
+    width: 40%;
+    border: 3px outset blue;
+    margin-bottom: 15px;
+
     text-align: center;
 }
 
