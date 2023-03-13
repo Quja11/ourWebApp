@@ -14,7 +14,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 
-    background-color: rgb(205, 124, 124);
+    background-color: rgb(140, 33, 33);
 
     /*Свойство на время, для наглядности*/
     margin-top: 600px;
@@ -23,6 +23,25 @@ footer{
 footer div{
     background-color: cadetblue;
 }
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: rgb(146, 230, 73);
+}
+
+aside{
+    background-color: cadetblue;
+    width: 100px;
+    height: 80%;
+    float: right;
+    text-align: center;
+}
+
+
 
 
 
