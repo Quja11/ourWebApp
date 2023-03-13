@@ -1,0 +1,28 @@
+body{
+    background-color: bisque;
+    padding: 15px;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: brown;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: rgb(205, 124, 124);
+
+    /*Свойство на время, для наглядности*/
+    margin-top: 600px;
+}
+
+footer div{
+    background-color: cadetblue;
+}
+
+
+
