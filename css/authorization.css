@@ -1,0 +1,79 @@
+body{
+    background-color: #2f2f2f;
+}
+.auth {
+    background-color: darkgray;
+    margin: 0 auto;
+    border: 5px solid #0075bd;
+    border-radius: 10px;
+    width: 560px;
+    height: 440px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.footer {
+    text-align: end;
+}
+
+.formAuth {
+
+    display: grid;
+    padding: 10px;
+    grid-template-areas:
+	"em"
+	"p"
+    "rp"
+    "rBtn"
+    "aH";
+    grid-template-rows: 4fr 4fr 6fr;
+}
+
+.formAuth #inp_email {
+    grid-area: em;
+}
+
+.formAuth #inp_pass {
+    grid-area: p;
+}
+
+.formAuth #inp_repass {
+    grid-area: rp;
+}
+
+.formAuth #regBtn {
+    grid-area: rBtn;
+    font-size: 22px;
+
+}
+
+.formAuth #authHolder {
+    grid-area: aH;
+}
+
+.fieldInp {
+    margin: 10px;
+    text-align: center;
+}
+
+.field {
+    text-align: center;
+}
+
+.formAuth input {
+    border-color: #0075bd;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+}
+.accept{
+    text-align: center;
+    padding: 20px;
+}
+#authHolder{
+}
