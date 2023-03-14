@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: bisque;
     padding-left: 20px;
-    margin: 0;
+    font-family: 'Unbounded', cursive;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -15,9 +20,7 @@ footer{
     justify-content: space-between;
 
     background-color: rgb(140, 33, 33);
-
-    /*Свойство на время, для наглядности*/
-    margin-top: 600px;
+    margin-top: 100px;
 }
 
 footer div{
@@ -44,6 +47,8 @@ aside{
     height: 80%;
     float: right;
     text-align: center;
+
+    border: 2px outset rgb(201, 165, 58);
 }
 
 aside div img{
@@ -63,11 +68,71 @@ aside div img{
 .mainSection div{
     background-color: rgb(24, 189, 109);
     width: 40%;
-    border: 3px outset blue;
+    border: 3px outset rgb(210, 210, 240);
     margin-bottom: 15px;
 
     text-align: center;
 }
+
+h1:first-child{
+    text-align: center;
+    background-color: pink;
+    border: 2px inset rgb(111, 111, 188);
+}
+
+h1 + div{
+    height: 700px;
+    background-color: rgb(115, 227, 130);
+}
+
+/* Флекс для tournaments.html */
+.tournaments{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tournamentsItems{
+    background-color: brown;
+    color: white;
+}
+
+/* Флекс для ranks.html */
+.ranks{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.ranksItems{
+    background-color: brown;
+    color: white;
+}
+
+/* Флекс для reviews.html */
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.reviewsItems{
+    background-color: brown;
+    color: white;
+}
+
+/* Флекс для bonuses.html */
+.bonuses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bonusesItems{
+    background-color: brown;
+    color: white;
+}
+
 
 
 
